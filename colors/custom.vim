@@ -15,7 +15,7 @@ if version >= 500
   set hlsearch
 
   " highlight Comment gui=italic
-  set shiftwidth=4 tabstop=8
+  "set shiftwidth=4 tabstop=8
 
   highlight Comment    guifg=green3 guibg=black 
 "  highlight Comment     guifg=SkyBlue1 gui=none
@@ -88,22 +88,22 @@ if version >= 500
     hi Normal ctermfg=DarkBlue ctermbg=grey guifg=lightgreen guibg=black
   highlight Comment    guifg=green3 ctermbg=Grey ctermfg=Magenta
 
-  set lines=50                                " number of lines
-  set columns=80                              " number of columns
+"  set lines=50                                " number of lines
+"  set columns=80                              " number of columns
 "  set guifont=10x20						      " set the font to use
 
 endif
 
-set autoindent
-set nobackup
-set cindent
+"set autoindent
+"set nobackup
+"set cindent
 " set confirm
 "set nocompatible
-set ignorecase
-set lines=50
+"set ignorecase
+"set lines=50
 " set selectmode=mouse
-set shiftwidth=4 tabstop=8
-set showmatch
-set wrapscan
+"set shiftwidth=4 tabstop=8
+"set showmatch
+"set wrapscan
 " behave xterm
-set cpoptions=aABceFsu
+"set cpoptions=aABceFsu
